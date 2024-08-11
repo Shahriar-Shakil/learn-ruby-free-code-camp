@@ -31,6 +31,6 @@
 # puts 1.5 + 2.3
 
 # getting user input
-puts "Enter your name"
-name = gets
-puts ("hello " + name)
+# puts "Enter your name"
+# name = gets
+# puts ("hello " + name)
