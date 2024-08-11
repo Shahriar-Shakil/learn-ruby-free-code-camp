@@ -22,3 +22,10 @@ puts name.strip()
 puts name.length()
 puts name.include? "shakil"
 puts "programming".upcase()
+
+# math and numbers
+puts 2**5
+puts 10%3
+num = 7
+puts "my fev number is " + num.to_s
+puts 1.5 + 2.3
