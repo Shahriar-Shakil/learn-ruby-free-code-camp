@@ -111,7 +111,24 @@ friends = ["kevin","karen","Oscar","Angila","Syfa"]
 # puts pow(2,3)
 
 # handle files
-File.open("example.txt","r") do |file|
-  puts file.readlines()[1]
-end
+# file = File.open("example.txt","r+") 
 
+# puts file.read
+
+# write file
+#  File.open("index.html","w") do |file|
+#    file.write("<h1>Hello World</h1>")
+#  end
+
+# Error handling
+lucky_numbers = [1,2,3,4,5]
+# num = 10 / 0
+
+begin 
+  lucky_numbers["dogs"]
+  num = 10 / 0
+  rescue ZeroDivisionError
+    puts "Division By zero error"
+    rescue TypeError => e
+      puts e
+  end
