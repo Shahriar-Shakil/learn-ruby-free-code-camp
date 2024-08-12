@@ -36,6 +36,15 @@
 # puts ("hello " + name)
 
 # array 
-friends = Array["Kevin","Nitu","Oscar"]
-friends[0] = "Shifat"
-puts friends[0,3]
+# friends = Array["Kevin","Nitu","Oscar"]
+# friends[0] = "Shifat"
+# puts friends[0,3]
+
+# hash
+
+divisions = {
+  :rangpur => "RN",
+  "Dhaka" => "DH",
+  "Sylet" => "SY"
+}
+puts(divisions[:rangpur])
