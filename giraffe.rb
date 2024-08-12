@@ -97,6 +97,18 @@ friends = ["kevin","karen","Oscar","Angila","Syfa"]
 #   puts index
 # end
 
-6.times do |index|
-  puts index
+# 6.times do |index|
+#   puts index
+# end
+
+def pow(base_num,pow_num)
+result = 1
+  pow_num.times do |index|
+    result = result * base_num
+  end
+return result
 end
+puts pow(2,3)
+
+
+
