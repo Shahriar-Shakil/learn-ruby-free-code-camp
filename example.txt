@@ -1,0 +1,2 @@
+Hello there! This is from txt file
+this is line 2
