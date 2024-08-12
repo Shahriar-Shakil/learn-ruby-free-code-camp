@@ -42,9 +42,11 @@
 
 # hash
 
-divisions = {
-  :rangpur => "RN",
-  "Dhaka" => "DH",
-  "Sylet" => "SY"
-}
-puts(divisions[:rangpur])
+# divisions = {
+#   :rangpur => "RN",
+#   "Dhaka" => "DH",
+#   "Sylet" => "SY"
+# }
+# puts(divisions[:rangpur])
+
+# method
