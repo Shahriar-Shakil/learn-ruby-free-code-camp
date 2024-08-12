@@ -34,3 +34,8 @@
 # puts "Enter your name"
 # name = gets
 # puts ("hello " + name)
+
+# array 
+friends = Array["Kevin","Nitu","Oscar"]
+friends[0] = "Shifat"
+puts friends[0,3]
